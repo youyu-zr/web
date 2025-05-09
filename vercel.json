@@ -1,6 +1,5 @@
 {
-    "version": 2,
-    "framework": "other",
+    "version": 2，
     "builds": [
         {
             "src": "**/*",
