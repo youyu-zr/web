@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- 声明文档类型为 HTML5 -->
+<html lang="zh-CN"> <!-- 设置中文语言环境 -->
+<head>
+    <meta charset="UTF-8"> <!-- 统一使用UTF-8编码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 移动端适配 -->
+    <title>炫酷网站示例</title> <!-- 浏览器标签标题 -->
+    <link rel="stylesheet" href="style.css"> <!-- 引入CSS样式表 -->
+</head>
+<body>
+    <!-- 主视觉区域 -->
+    <section class="hero">
+        <!-- 故障效果文字 -->
+        <h1 class="glitch-text">欢迎来到未来世界</h1>
+        <div class="nav-buttons">
+            <a href="https://vercel.com" target="_blank" class="nav-button">
+                <span class="button-text">Vercel</span>
+                <div class="button-glow"></div>
+            </a>
+            <a href="https://github.com" target="_blank" class="nav-button">
+                <span class="button-text">GitHub</span>
+                <div class="button-glow"></div>
+            </a>
+        </div>
+    </section>
+
+    <canvas id="mouse-trail"></canvas>
+    
+    <!-- 引入鼠标拖尾逻辑脚本 -->
+    <script src="mouseTrail.js"></script>
+</body>
+</html>
